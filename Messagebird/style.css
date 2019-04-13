@@ -1,0 +1,436 @@
+@font-face {
+   font-family: LotaGrotesque-Regular;
+   src: url("/Fonts/LotaGrotesque-Regular.ttf");
+}
+
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+    font-family: LotaGrotesque-Regular, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #667a93;
+    margin-top: 50px;;
+    
+
+}
+
+.slategrey{
+    color: darkslategray;
+    line-height: 1.5em;
+}
+
+.dimgray{
+    font-size: 22px;
+    color: rgb(67, 83, 105);
+    text-align: left;
+    font-weight: 500;
+
+}
+
+.gftc{
+    font-size: 14px;
+}
+.container{
+    max-width: 1008px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    line-height: 5px;
+    width: 1008px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+
+}
+
+li{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.jumb{
+    display: flex;
+    margin: 20px;
+
+    margin-top: 80px;
+
+}
+.jumb div{
+    width: 50%
+}
+
+.but{
+    display: flex;
+    flex-wrap: nowrap;
+    
+
+}
+.but a{
+    padding: 7px;
+    font-size: 14px;
+    margin: 4px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.try{
+    border: 1px solid dodgerblue;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+
+}
+
+.talk{
+    border: 1px solid dodgerblue;
+    width: 120px;
+    color: dodgerblue;
+    white-space: nowrap;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.skewed{
+    display: flex;
+    padding-top: 20px;
+}
+
+.let::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(246, 249, 255);
+    width: 1600px;
+    height: 100%;
+    left: -300px;
+    right: 0;
+    z-index: -1;
+    padding-top: 30px;
+    transform: skewY(-2deg);
+
+}
+
+
+.rp{
+    color: #0089ff;
+    margin-bottom: -7px
+}
+
+.let{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    align-items: center;
+
+}
+.let>div{
+    display:flex;
+}
+
+.let>h3{
+    font-size: 14px;;
+    text-align: center;
+}
+
+.let>h2{
+    font-size: 28px;
+    max-width: 666px;
+    text-align: center;
+    color: #24374e;
+}
+
+.phd{
+    display: flex;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 45%;
+    padding: 20px
+}
+
+.phd div{
+    margin-top: -30px;
+    margin-left: 15px;
+
+}
+
+.ski{
+    height: 300px;
+}
+.tlk{
+    display: flex;
+
+}
+
+.cuss{
+    display: flex
+}
+
+
+.cus>div{
+    max-width: 50%;
+}
+
+.cus>h2{
+    color: #24374e;
+    font-size: 28px;;
+}
+
+.cus>p{
+    font-size: 22px;;
+}
+.cus>a{
+    padding: 12px 8px 12px 8px;
+    font-size: 14px;
+    margin: 4px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid dodgerblue;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.cuss::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(246, 249, 255);
+    width: 1600px;
+    height: 75%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transform: skewY(-2deg);
+
+}
+
+.cus,.cu{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.scal img{
+    height: 62px;
+    width: 62px;
+}
+
+.scl>h5{
+    font-size: 18px;
+}
+
+.scl>p{
+    font-size: 16px;;
+}
+.scal{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.scal div{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+.scal div>h5{
+    margin-top: 10px;
+}
+
+.scal div>p{
+    margin-top: -25px;
+}
+
+.whg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tru{
+    text-align: center;
+}
+.tru>h3{
+    font-size: 14px;
+    color: #9AA8BD
+}
+
+.tru>h2{
+    font-size: 28px;
+    color: #24374e;
+}
+.glo{
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.glo>div{
+    margin: 20px;
+}
+
+.wod1{
+    display: flex;
+    margin-bottom: -12px;
+
+}
+.wod1>img{
+    width:24px;
+    height: 24px;
+}
+
+.wod1>h5{
+    margin-left: 10px;
+    margin-top: -7px;
+    font-size: 18px;
+}
+
+.sign{
+    padding: 12px 8px 12px 8px;
+    font-size: 14px;
+    margin: 4px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid dodgerblue;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.exp{
+    padding: 12px 8px 12px 8px;
+    font-size: 14px;
+    margin: 4px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid dodgerblue;
+    width: 100px;
+    background-color: white;
+    color: dodgerblue;
+}
+
+.trus{
+    max-width: 800px;;
+    text-align: center;
+    color: #9AA8BD
+}
+
+.signi{
+    margin-top: 100px;
+}
+
+blockquote{
+    font-weight: 500;
+    color: rgb(72, 87, 140);
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px auto 50px
+}
+
+footer{
+    text-align: center;
+
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0px 15px;
+    font-size: 12px;
+}
+
+
+
+footer>ul li:not(:last-of-type)::after{
+    content: "-";
+    color: rgb(221, 236, 250);
+    font-weight: 900;
+    top: 1px;
+    position: relative;
+    margin-left:10px;
+    margin-right: -10px;
+}
+
+footer>span{
+    font-size: 12px;
+}
+
+.lastul{
+    font-size:14px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.lastul li:not(:last-of-type)::after{
+    content: "|";
+    color: rgb(221, 236, 250);
+    font-weight: 900;
+    top: 1px;
+    position: relative;
+    margin-left:10px;
+    margin-right: ;
+}
+
+
+footer img{
+    margin: 30px
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(246, 249, 255);
+    width: 1600px;
+    height: 20%;
+    left: 0;
+    z-index: -1;
+}

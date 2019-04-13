@@ -145,8 +145,6 @@ a{
     background-color: rgb(246, 249, 255);
     width: 1600px;
     height: 100%;
-    left: -300px;
-    right: 0;
     z-index: -1;
     padding-top: 30px;
     transform: skewY(-2deg);
@@ -207,9 +205,24 @@ a{
     display: flex;
 
 }
+.cuss::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(246, 249, 255);
+    width: 1600px;
+    height: 600px;
+    z-index: -1;
+    transform: skewY(-2deg);
+
+}
 
 .cuss{
-    display: flex
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    align-items: center;
 }
 
 
@@ -237,18 +250,6 @@ a{
     color: white;
 }
 
-.cuss::before {
-    content: "";
-    position: absolute;
-    background-color: rgb(246, 249, 255);
-    width: 1600px;
-    height: 75%;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    transform: skewY(-2deg);
-
-}
 
 .cus,.cu{
     padding-top: 50px;
@@ -338,7 +339,6 @@ a{
     text-align: center;
     border-radius: 4px;
     border: 1px solid dodgerblue;
-    width: 100px;
     background-color: dodgerblue;
     color: white;
 }
@@ -350,7 +350,6 @@ a{
     text-align: center;
     border-radius: 4px;
     border: 1px solid dodgerblue;
-    width: 100px;
     background-color: white;
     color: dodgerblue;
 }
@@ -362,7 +361,15 @@ a{
 }
 
 .signi{
+    display: flex;
+    flex-direction: column;
     margin-top: 100px;
+}
+
+.signi>div{
+    display: flex;
+    flex-wrap: nowrap;
+
 }
 
 blockquote{
@@ -374,7 +381,27 @@ blockquote{
     margin: 0px auto 50px
 }
 
+
+.fdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    align-items: center;
+}
+.fdiv::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(246, 249, 255);
+    width: 1600px;
+    height: 100%;
+    z-index: -1;
+    
+}
+
 footer{
+    display: flex;
     text-align: center;
 
 }
@@ -425,12 +452,3 @@ footer img{
     margin: 30px
 }
 
-footer::before {
-    content: "";
-    position: absolute;
-    background-color: rgb(246, 249, 255);
-    width: 1600px;
-    height: 20%;
-    left: 0;
-    z-index: -1;
-}

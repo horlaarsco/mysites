@@ -101,6 +101,10 @@ li{
     width: 50%
 }
 
+#imh{
+    max-width: 630px;
+}
+
 .but{
     display: flex;
     flex-wrap: nowrap;
@@ -450,10 +454,18 @@ footer img{
 }
 
 
-
+@media only screen and (max-width: 500px) {
+    #imh{
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 1110px) {
     .container {
         overflow-x: hidden;
     }
-  }
+}
+
+
+
+

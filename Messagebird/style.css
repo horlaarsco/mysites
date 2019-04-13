@@ -117,7 +117,6 @@ li{
 
 .try{
     border: 1px solid dodgerblue;
-    width: 100px;
     background-color: dodgerblue;
     color: white;
 
@@ -125,7 +124,6 @@ li{
 
 .talk{
     border: 1px solid dodgerblue;
-    width: 120px;
     color: dodgerblue;
     white-space: nowrap;
 

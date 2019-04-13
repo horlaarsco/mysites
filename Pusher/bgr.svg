@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="196.2"
+   height="417.99014"
+   viewBox="0 0 196.2 417.99014"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="repeatable-diagonal-type-one.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1066"
+     inkscape:window-height="698"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="2.2695536"
+     inkscape:cx="98.540614"
+     inkscape:cy="244.5489"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <path
+     d="m 0,410.55003 c 0,-1.25 0.32,-2.52 1.02,-3.73 L 197.08123,66.937573 V 219.53757 L 86.95,410.52003 c -2.652041,4.63504 -7.589904,7.48778 -12.93,7.47 H 7.5 c -4.13175,0.0222 -7.4945208,-3.31819 -7.5,-7.45 z"
+     id="path2"
+     inkscape:connector-curvature="0"
+     style="fill:#eeeeff"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     d="M 120.7,11.170034 A 7.44,7.44 0 0 0 114.24,3.4248536e-5 H 47.7 C 42.37,3.4248536e-5 37.4,2.8900342 34.77,7.4700342 L 0,67.700034 V 220.25003 Z"
+     fill="#eeeeff"
+     id="path4" />
+</svg>

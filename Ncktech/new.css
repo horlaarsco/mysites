@@ -1,0 +1,55 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+
+.main,.contents,.c1,.c2,.c3,.t1,.t2,.b1,.b2,.b3,.aside,.a1,.a2,.a3,.a4 {
+	border:1px solid grey;
+    margin:5px;padding:8px;
+    background-color:white;
+    justify-content: space-around;
+
+}
+
+.main,.c1,.c2{
+	display: flex;
+	flex-direction: row;
+}
+
+.contents, .aside{
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+.main{
+	width: 800px;
+    height: 500px;
+
+}
+
+.aside{
+	width: 20%;
+}
+
+.c1,.c2{
+	justify-content: center;
+
+}
+
+.c1,.c2,.c3{
+	height: 30%;
+}
+
+.t1,.t2{
+	width: 40%;
+
+}
+
+.b1,.b2,.b3{
+	width:30%;
+}
+
+.a1,.a2,.a3,.a4{
+	height: 20%;
+}

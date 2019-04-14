@@ -543,6 +543,10 @@ footer img{
         padding: 0px 15px;
         font-size: 12px;
     }
+
+    .cuss::before {
+        display: none;
+    }
 }
 
 
@@ -560,7 +564,7 @@ footer img{
         margin-left: auto;
         overflow-x: hidden;
         overflow-y: visible;
-        padding: 20px;
+        /* padding: 20px; */
     }
 
 

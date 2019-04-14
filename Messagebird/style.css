@@ -68,7 +68,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 30px;
 
 }
 
@@ -454,16 +453,119 @@ footer img{
 }
 
 
+
+
+
+
+
 @media only screen and (max-width: 500px) {
-    #imh{
+    .imhh{
+        margin-top: 30px;
+    }
+
+    header{
+        max-width: 300px;
+        margin-right: auto;
+
+    }
+
+    header ul{
         display: none;
+    }
+
+    .jumb{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    .jumb div{
+        width: 100%
+    }
+    
+    .but {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .hid{
+        display: none;
+    }
+    
+    .let>div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .phd{
+        width: 30em;
+    }
+
+    .cuss{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cus>a{
+        display: none;
+    }
+
+    .scal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .glo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signi div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .signi div a{
+        width: 100%;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: center;
+        padding: 0px 15px;
+        font-size: 12px;
     }
 }
 
+
+
+
 @media only screen and (max-width: 1110px) {
-    .container {
-        overflow-x: hidden;
+    /* #imh{
+        display: none;
     }
+
+    header ul{
+        display: none;
+    } */
+    .container {
+        margin-left: auto;
+        overflow-x: hidden;
+        overflow-y: visible;
+        padding: 20px;
+    }
+
+
+
+    
 }
 
 

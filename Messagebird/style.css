@@ -457,14 +457,25 @@ footer img{
 
 
 
-
 @media only screen and (max-width: 500px) {
+
+    .imgbb{
+        display: none;
+    }
+
+    .imgbbh{
+        margin-left: 20px;
+        height: 45px;
+
+    }
     .imhh{
         margin-top: 30px;
     }
 
     header{
-        max-width: 300px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 600px;
         margin-right: auto;
 
     }
@@ -479,7 +490,7 @@ footer img{
         flex-direction: column;
         margin: 0px;
         align-items: center;
-        margin-top: 80px;
+        margin-top: 40px;
     }
 
     .jumb div{
@@ -529,6 +540,7 @@ footer img{
         display: flex;
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
 
     .signi div a{
@@ -537,7 +549,8 @@ footer img{
 
     footer ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         list-style: none;
         justify-content: center;
         padding: 0px 15px;
@@ -579,6 +592,7 @@ footer img{
 
     body{
         line-height: 4em;
+        margin-right: -10px;
     }
 
 
@@ -670,6 +684,11 @@ footer img{
         margin: 20px;
     }
     
+    .but a {
+        font-size: 24px;
+    }
+
+
 }
 
 
@@ -694,6 +713,14 @@ footer img{
     
 }
 
+@media only screen and (min-width: 500px) {
+    .imgbbh{
+        display: none;
 
+    }
 
-
+    
+    .men{
+        display: none;
+    }
+}

@@ -547,6 +547,129 @@ footer img{
     .cuss::before {
         display: none;
     }
+
+
+    .jjumb>h1{
+        margin: 20px;
+        font-size: 50px;
+    }
+
+    .jjumb>h2{
+        font-size: 32px;
+        line-height: 2em;
+        margin: 30px;
+    }
+
+    .but a {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .let::before {
+        display: none;
+
+    }
+
+    .let>h2 {
+        font-size: 40px;
+        max-width: 90%;
+        text-align: center;
+        color: #24374e;
+    }
+
+    body{
+        line-height: 4em;
+    }
+
+
+    .phd{
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgb(238, 244, 255) 0px 0px 0px 1px, rgb(238, 244, 255) 0px 2px 8px 1px;
+        height: 100%;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(238, 244, 255);
+        border-image: initial;
+        border-radius: 4px;
+    }
+
+    .rp{
+        font-size: 20px;
+    }
+
+    .cus>h2 {
+        font-size: 40px;
+    }
+
+    .cus>p{
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .scal img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .scal div>p {
+        font-size: 27px;
+        margin-top: -25px;
+        line-height: 2em;
+    }
+
+    .scl>h5 {
+        font-size: 23px;
+    }
+
+    .tru>h3 {
+        font-size: 20px;
+        color: #9AA8BD;
+    }
+
+    .tru>h2 {
+        font-size: 40px;
+        color: #24374e;
+    }
+
+    .wod1>img {
+        width: 38px;
+        height: 38px;
+    }
+    .wod1>h5 {
+        font-size: 25px;
+        color: #24374e;
+    }
+
+    .wod>span{
+        font-size: 30px;
+    }
+
+    .wod1 {
+        display: flex;
+        margin-bottom: -50px;
+    }
+
+    .signi {
+        margin-top: 0px;
+    }
+
+    .sign,.exp {
+        font-size: 20px;
+    }
+    .gftc {
+        font-size: 20px;
+    }
+
+    blockquote {
+        text-align: center;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .trus{
+        margin: 20px;
+    }
+    
 }
 
 
@@ -564,7 +687,6 @@ footer img{
         margin-left: auto;
         overflow-x: hidden;
         overflow-y: visible;
-        /* padding: 20px; */
     }
 
 

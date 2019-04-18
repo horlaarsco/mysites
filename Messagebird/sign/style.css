@@ -1,0 +1,77 @@
+@font-face {
+   font-family: LotaGrotesque-Regular;
+   src: url("/Fonts/LotaGrotesque-Regular.ttf");
+}
+
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+    font-family: LotaGrotesque-Regular, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #667a93;
+    margin-top: 50px;    
+
+}
+
+.frm{
+   display: flex;
+   flex-direction: column;
+}
+
+.signg>p{
+   color: white;
+   background-color: blue;
+   padding: 20px;
+   font-size: 13px;
+   border-radius: 5px;
+   text-align: center;
+}
+
+
+
+.imgh{
+   display: flex;
+   flex-wrap: nowrap;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.imgh img{
+   height: 100%;
+   width: 20%;
+   margin: 5px;
+}

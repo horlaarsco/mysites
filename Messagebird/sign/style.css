@@ -47,6 +47,17 @@ body{
 
 }
 
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 auto;
+   position: relative;
+   overflow: hidden;
+   max-width: 500px;
+}
+
+
 .frm{
    display: flex;
    flex-direction: column;
@@ -74,4 +85,9 @@ body{
    height: 100%;
    width: 20%;
    margin: 5px;
+}
+
+
+#comp,#ema,#pass{
+   padding: 10px;
 }

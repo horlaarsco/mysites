@@ -39,10 +39,29 @@ body{
     margin: 0;
     padding: 0;
     line-height: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     color: #667a93;
     margin-top: 50px;    
 
+}
+
+.container{
+   display: flex;
+   justify-content: space-around;
+   align-content: space-between;
+}
+
+.fest{
+   width: 18%;
+}
+
+.econd{
+   width: 78%;
+}
+
+.nava{
+   display: flex;
+}
+
+.nava>p{
+   margin-left: 10px;
 }

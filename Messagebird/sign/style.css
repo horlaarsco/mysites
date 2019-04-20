@@ -65,9 +65,9 @@ body{
 
 .signg>p{
    color: white;
-   background-color: blue;
-   padding: 20px;
-   font-size: 13px;
+   background-color: #0089ff;
+   padding: 15px;
+   font-size: 17px;
    border-radius: 5px;
    text-align: center;
 }
@@ -90,4 +90,28 @@ body{
 
 #comp,#ema,#pass{
    padding: 10px;
+}
+
+
+.sub{
+   
+   background: #0089ff;
+   color: #fff;
+   font-weight: 600;
+   margin: auto;
+   margin-bottom: 40px;
+   margin-top: 30px;
+   font-size: 14px;
+   height: 48px;
+   border-radius: 4px;
+
+}
+
+#pp{
+   font-size: 15px;
+}
+
+#pps{
+   color: #0089ff;
+
 }

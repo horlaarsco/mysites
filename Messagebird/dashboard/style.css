@@ -123,3 +123,54 @@ body{
 #spnf{
    color: #3f90dc;: 
 }
+
+.yuia{
+   display: flex;
+   flex-direction: column;
+}
+
+.ola{
+   height: 88px;
+   width: 100%;
+   background: rgb(221, 221, 255);
+
+}
+
+.iolk{
+   display: flex;
+}
+
+.rege{
+   margin-bottom: 30px;
+   padding-top: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: none;
+   border-top: 1px solid rgb(235, 245, 255);
+   border-right: 1px solid rgb(235, 245, 255);
+   border-bottom: 1px solid rgb(235, 245, 255);
+   border-left: 1px solid rgb(235, 245, 255);
+   background: rgb(255, 255, 255);
+   border-radius: 4px;
+   flex: 1 1 109px;
+   margin-left: 10px;
+}
+
+.lopj{
+   display: flex;
+}
+
+.lopj>p{
+   margin-left: 4px;
+}
+
+section>span{
+   color: rgb(137, 150, 176);
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 14px;
+
+}

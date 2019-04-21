@@ -34,13 +34,22 @@
 
 
 
+a{
+   text-decoration:none;
+   color: #3f90dc;
+}
+
+h4{
+   margin-left: 4px;
+}
+
+
 body{
    font-family: LotaGrotesque-Regular, sans-serif;
    margin: 0;
    padding: 0;
    line-height: 2em;
    color: #667a93;
-   margin-top: 50px;    
    font-size: 14px;;
    line-height: 22px;
 
@@ -51,14 +60,17 @@ body{
    display: flex;
    justify-content: space-around;
    align-content: space-between;
+   margin: auto;
 }
 
 .fest{
-   width: 18%;
+   width: 224px;
+   margin: 20px;
+
 }
 
 .econd{
-   width: 78%;
+   width: 100%;
 }
 
 .nava{
@@ -76,7 +88,7 @@ body{
 }
 
 .dash>h1{
-   margin-right: 500px;
+   flex-grow: 1;
 }
 
 .tst,.hrl,.doct{
@@ -101,18 +113,31 @@ body{
 
 .unl{
    display: flex;
+   background-color: #f6f9ff;
+   padding: 20px;
 }
 
 .welt{
    display: flex;
    flex-direction: column;
    margin-right: 24px;
-   flex-basis: 310px;
+   flex: 0 0 310px;
+   padding: 20px;
+   position: relative;
+}
+
+.welt>div{
+   border-radius: 6px;
+   background-color: white;
+   padding: 25px;
+
 }
 
 .nota{
    display: flex;
-   margin-top: 10px;;
+   margin-top: 24px;
+   flex-grow: 1;
+   flex-shrink: 1;
 }
 
 .nota>span{
@@ -138,9 +163,11 @@ body{
 
 .iolk{
    display: flex;
+   margin-top: 14px;;
 }
 
 .rege{
+   position: relative;
    margin-bottom: 30px;
    padding-top: 20px;
    padding-right: 20px;
@@ -163,14 +190,80 @@ body{
    display: flex;
 }
 
-.lopj>p{
-   margin-left: 4px;
-}
+
 
 section>span{
    color: rgb(137, 150, 176);
    text-transform: uppercase;
    font-weight: 600;
    font-size: 14px;
+}
 
+.secr{
+   margin: 10px;
+}
+
+.juju{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+   width: 100%;
+   height: 6px;
+   background-color: rgb(149, 244, 233);
+}
+
+
+.jujuq{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+   width: 100%;
+   height: 6px;
+   background-color: rgb(132, 132, 255);
+
+}
+
+
+.jujup{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+   width: 100%;
+   height: 6px;
+   background-color: rgb(229, 240, 250);
+
+}
+
+.jujub{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+   width: 100%;
+   height: 6px;
+   background-color: rgb(255, 219, 108);
+}
+
+.jujuc{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+   width: 100%;
+   height: 6px;
+   background-color: rgb(175, 230, 255);
+
+}
+
+.hrl,.tst{
+   padding-left: 30px;
+   padding-right: 30px;;
 }

@@ -40,9 +40,14 @@ a{
 }
 
 h4{
+   color: #3a4456;
    margin-left: 4px;
 }
 
+h2, h3{
+   color: #3a4456;
+
+}
 
 body{
    font-family: LotaGrotesque-Regular, sans-serif;
@@ -179,6 +184,15 @@ body{
    margin-top: 14px;;
 }
 
+.iolk .rege>a:first-of-type{
+   margin-top: 6px;;
+}
+
+.iolk .rege>a{
+   margin-bottom: 0px;
+}
+
+
 .rege{
    position: relative;
    margin-bottom: 30px;
@@ -202,6 +216,7 @@ body{
 .lopj{
    display: flex;
    align-items: center;
+   margin-bottom: -20px;
 }
 
 .lopj>svg{
@@ -218,7 +233,11 @@ section>span{
 }
 
 .secr{
+   border-radius: 4px;
+   padding: 20px;
    margin: 10px;
+   background-color: white;
+
 }
 
 .juju{
@@ -286,6 +305,9 @@ section>span{
    padding-right: 30px;;
 }
 
+.hrl>p{
+   color: #3a4456;
+}
 
 #werh{
    height: 40px;

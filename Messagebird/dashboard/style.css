@@ -393,6 +393,7 @@ section>span{
 
 }
 
+
 @media only screen and (max-width: 800px) {
 
    .doct>a {
@@ -412,7 +413,73 @@ section>span{
    .rege{
       max-height: 200px;
       padding: 2px;
+      padding-bottom: 50px;
    }
 
+   .hrl>p {
+      display: none;
+   }
+
+   .fest {
+      width: 184px;
+      margin: 8px;
+  }
+
    
+}
+
+@media only screen and (max-width: 700px) {
+   .fest {
+      width: 160px;
+      margin: 8px;
+  }
+
+}
+
+
+@media only screen and (max-width: 450px) {
+   .fest{
+      display: none;
+   }
+
+   .iolk,.welt {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .rege{
+      padding: 20px;
+   }
+
+   .nota{
+      padding: 0;
+      margin-top: 24px;
+      margin-left: 0;
+      margin-right: 0;
+   }
+
+   .welt{
+      margin-right: 0;
+      width: 90%;
+   }
+
+   #hidders{
+      display: none;
+
+   }
+
+   #werh {
+      height: 40px;
+      padding-right: 3px;
+      padding-left: 3px;
+   }
+
+   .tst, .hrl, .doct {
+      display: none;
+  }
+
+  .dash{
+     padding: 10px;
+  }
+
 }
